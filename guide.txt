@@ -1,0 +1,12 @@
+rails new readit -d mysql
+bundle install
+
+change database configuration in config/database.yml file to match your database information.
+
+start server:
+rails server
+
+Generate controller
+rails generate controller welcome index
+
+(update rails: gem update rails --no-ri --no-rdoc)
